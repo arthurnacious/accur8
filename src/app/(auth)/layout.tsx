@@ -10,8 +10,8 @@ const AuthLayout: FC<Props> = ({ children }) => {
       className="min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{ backgroundImage: "url('/auth-bg.jpg')" }}
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="z-10 max-w-md w-full space-y-8 p-10 bg-white bg-opacity-90 rounded-xl shadow-2xl">
+      <div className="absolute inset-0 bg-black/95"></div>
+      <div className="z-10 max-w-md w-full space-y-8 p-10 bg-white/90 backdrop-blur-lg rounded-xl shadow-2xl">
         {children}
       </div>
     </div>
